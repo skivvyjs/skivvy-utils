@@ -1,6 +1,6 @@
 {
   "name": "skivvy-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Skivvy task runner utilities",
   "main": "index.js",
   "scripts": {
