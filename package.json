@@ -1,0 +1,47 @@
+{
+  "name": "skivvy-utils",
+  "version": "0.0.1",
+  "description": "Skivvy task runner utilities",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "eslint index.js lib test && mocha --reporter spec"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkendrick/skivvy-utils.git"
+  },
+  "keywords": [
+    "skivvy"
+  ],
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkendrick/skivvy-utils/issues"
+  },
+  "homepage": "https://github.com/timkendrick/skivvy-utils#readme",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "dateformat": "^1.0.11",
+    "es6-template-strings": "^0.1.0",
+    "pretty-ms": "^1.1.0"
+  },
+  "devDependencies": {
+    "@timkendrick/node-project": "^1.0.0",
+    "chai": "^2.3.0",
+    "escape-regexp": "0.0.1",
+    "eslint": "^0.21.2",
+    "mock-cli": "^0.1.0",
+    "rewire": "^2.3.3",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
