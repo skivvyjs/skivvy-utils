@@ -23,7 +23,7 @@ A set of utilities to use with the [Skivvy](https://www.npmjs.com/package/skivvy
 - [`utils.timer.start()`](#utils.timer.start)
 - [`utils.timer.end()`](#utils.timer.end)
 
--
+---
 
 <a name="utils.log"></a>
 ### `utils.log(message, [message2, [message3...]])`
