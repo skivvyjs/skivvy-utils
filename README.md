@@ -1,7 +1,7 @@
 # skivvy-utils
 [![npm version](https://img.shields.io/npm/v/skivvy-utils.svg)](https://www.npmjs.com/package/skivvy-utils)
 ![Stability](https://img.shields.io/badge/stability-stable-brightgreen.svg)
-[![Build Status](https://travis-ci.org/timkendrick/skivvy-utils.svg?branch=master)](https://travis-ci.org/timkendrick/skivvy-utils)
+[![Build Status](https://travis-ci.org/skivvyjs/skivvy-utils.svg?branch=master)](https://travis-ci.org/skivvyjs/skivvy-utils)
 
 > Skivvy task runner utilities
 
