@@ -21,14 +21,14 @@ describe('utils.colors', function() {
 	it('should format debug messages', function() {
 		var expected, actual;
 		actual = colors.debug('Hello, world!');
-		expected = '<black>Hello, world!</black>';
+		expected = 'Hello, world!';
 		expect(actual).to.equal(expected);
 	});
 
 	it('should format info messages', function() {
 		var expected, actual;
 		actual = colors.info('Hello, world!');
-		expected = '<black>Hello, world!</black>';
+		expected = 'Hello, world!';
 		expect(actual).to.equal(expected);
 	});
 
